@@ -1,0 +1,106 @@
+[
+	{
+		"name": "ic",
+		"description": "An integrated circuit (IC), sometimes called a chip",
+		"features": [
+			"Logic Gate ICs",
+			"Timer ICs",
+			"Operational Amplifiers",
+			"Voltage Regulators"
+		],
+		"mainImg": {
+			"src": "ic.jpg",
+			"alt": "IC"
+		},
+		"thumbnails": [
+			{
+				"src": "ic.jpg",
+				"alt": "IC"
+			},
+			{
+				"src": "charger.jpg",
+				"alt": "IC"
+			},
+			{
+				"src": "stand.jpg",
+				"alt": "IC"
+			}
+		],
+		"price": 100,
+		"discount": "10",
+		"categories": ["ic", "charger"],
+		"subCategories": []
+	},
+	{
+		"name": "Charger",
+		"description": "An integrated circuit (IC), sometimes called a chip",
+		"features": [
+			"Logic Gate ICs",
+			"Timer ICs",
+			"Operational Amplifiers",
+			"Voltage Regulators"
+		],
+		"mainImg": {
+			"src": "charger.jpg",
+			"alt": "IC"
+		},
+		"thumbnails": [
+			{
+				"src": "",
+				"alt": ""
+			}
+		],
+		"price": 100,
+		"discount": "11",
+		"categories": ["charger"],
+		"subCategories": []
+	},
+	{
+		"name": "Stand",
+		"description": "An integrated circuit (IC), sometimes called a chip",
+		"features": [
+			"Logic Gate ICs",
+			"Timer ICs",
+			"Operational Amplifiers",
+			"Voltage Regulators"
+		],
+		"mainImg": {
+			"src": "stand.jpg",
+			"alt": "IC"
+		},
+		"thumbnails": [
+			{
+				"src": "",
+				"alt": ""
+			}
+		],
+		"price": 100,
+		"discount": "12",
+		"categories": ["ic", "stand"],
+		"subCategories": []
+	},
+	{
+		"name": "Connector",
+		"description": "An integrated circuit (IC), sometimes called a chip",
+		"features": [
+			"Logic Gate ICs",
+			"Timer ICs",
+			"Operational Amplifiers",
+			"Voltage Regulators"
+		],
+		"mainImg": {
+			"src": "connector.jpg",
+			"alt": "IC"
+		},
+		"thumbnails": [
+			{
+				"src": "",
+				"alt": ""
+			}
+		],
+		"price": 100,
+		"discount": "13",
+		"categories": ["connector"],
+		"subCategories": []
+	}
+]

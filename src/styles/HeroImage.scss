@@ -1,0 +1,58 @@
+.hero-wrapper {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+  text-align: center;
+
+  span {
+    position: fixed;
+    z-index: -1;
+  }
+  
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: normal;
+  }
+  
+  p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .hero-wrapper {
+    height: 15em;
+
+    h1 {
+      font-size: 4em;
+    }
+  
+    p {
+      font-size: 2em;
+    }
+  }
+}
+
+@media screen and (min-width: 900px){
+  .hero-wrapper {
+    height: 50vh;
+
+    h1 {
+      font-size: 5em;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.social-icons-wrapper {
+    margin-top: 1em;
+
+    a {
+        text-decoration: none;
+        margin-bottom: 1em;
+        color: #000;
+        display: flex;
+        padding-left: 1em;
+
+        svg {
+            margin-right: 0.5em;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-wrapper {
+        transition: height 300ms;
+        height: 0;
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        overflow: hidden;
+
+        &.show {
+            height: 50px;
+        }
+
+        &>div {
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
