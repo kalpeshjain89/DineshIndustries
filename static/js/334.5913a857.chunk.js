@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkDinesh_Industries=self.webpackChunkDinesh_Industries||[]).push([[334],{5071:function(e,a,r){r.r(a),r.d(a,{default:function(){return u}});var s=r(2791),n=r.p+"static/media/mahasagar-mixer-banner.a04596999475afc3556d.jpg",i=r(7087),c=r(184),t=function(){return(0,c.jsxs)("div",{className:"hero-wrapper",children:[(0,c.jsx)(i.LazyLoadImage,{src:n,alt:"",effect:"blur"}),(0,c.jsx)("h1",{children:"DINESH INDUSTRIES"}),(0,c.jsx)("p",{children:"MIXER GRINDERS, MOTORS and more..."})]})},u=s.memo(t)}}]);
+//# sourceMappingURL=334.5913a857.chunk.js.map
