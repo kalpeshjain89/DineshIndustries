@@ -12,7 +12,7 @@ const HeroImage = () => {
         effect="blur"
       />
       <h1>DINESH INDUSTRIES</h1>
-      <p>COMPUTER ACCESSORIES and more...</p>
+      <p>MIXER GRINDERS, MOTORS and more...</p>
     </div>
   );
 }
