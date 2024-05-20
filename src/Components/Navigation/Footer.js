@@ -23,7 +23,7 @@ function Footer() {
               <a href="mailto:parshv83jain@gmail.com?subject=Inquiry%20about%20Dinesh%20Industries'%20Products%20&body=Hi Paresh, %0D%0A%0D%0A">
                 <EmailIcon /> parshv83jain@gmail.com
               </a>
-              <a href="//api.whatsapp.com/send?phone=919987585976&text=https://www.shubhamcomputers.com/%0A%0AI'm interested in your products and I have a few questions. Can you help?" target="_blank" rel="noopener noreferrer">
+              <a href="//api.whatsapp.com/send?phone=919987585976&text=https://dineshindustries.net.in/%0A%0AI'm interested in your products and I have a few questions. Can you help?" target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon /> WhatsApp
               </a>
               <a href="https://m.facebook.com/1171466706257889/" target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,7 @@ function Footer() {
               <div style={{ marginTop: '8px' }}>All rights reserved</div>
             </div>
           </div>
-          <Fab color="success" component="a" href="//api.whatsapp.com/send?phone=919987585976&text=https://www.shubhamcomputers.com/%0A%0AI'm interested in your products and I have a few questions. Can you help?" aria-label="WhatsApp" className="fabButton" target="_blank">
+          <Fab color="success" component="a" href="//api.whatsapp.com/send?phone=919987585976&text=https://dineshindustries.net.in/%0A%0AI'm interested in your products and I have a few questions. Can you help?" aria-label="WhatsApp" className="fabButton" target="_blank">
         <WhatsAppIcon />
       </Fab>
         </div>

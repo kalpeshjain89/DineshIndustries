@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 const ProductCategories = React.lazy(() => import("./ProductCategories"));
 const HeroImage = React.lazy(() => import("./Navigation/HeroImage"));
 
-const Homepage = ({productCategories}) => {
+const Homepage = ({ productCategories }) => {
   return (
     <div>
       <Helmet>
@@ -26,7 +26,7 @@ const Homepage = ({productCategories}) => {
           noWrap
           sx={{
             textAlign: 'center',
-            fontSize: {xs: '1.5em', sm: '2em', md: '3.75em' }
+            fontSize: { xs: '1.5em', sm: '2em', md: '3.75em' }
           }}
         >
           Welcome to Dinesh Industries
@@ -34,7 +34,21 @@ const Homepage = ({productCategories}) => {
         <Box sx={{
           mt: 1
         }}>
-          Shubham Computers is a sole proprietorship in the computer business since 1996. We supply Reparing Accessories, Tools, IC Chipsets, COFS, TCON Cards, Logic Cards, Testing Equipment, DATA Recovery solutions, Machinery for repairing electronic/Microprocessor Based devices like TVs, Monitors, Motherboards (Desktop/Laptop/ Industrialetc), RAM, Hard Disk, Displays, PCI Cards, LCD repairing parts, etc. Pan India Delivery. All types of service center supplies under one roof.
+          <strong>DINESH INDUSTRIES</strong> are a reputed manufacturers, wholesalers and exporters of a range of domestic
+          <strong>Mixer Grinders &amp; its spare parts, Mixer Motors, Mixer Motor Brackets, Juicer Jars and Tower Fans</strong>.
+          Since its establishment in 1995, innovation and customer centric approach has been the focus
+          of our company. At DINESH INDUSTRIES we believe in quality, hence our products are manufactured
+          under strict quality control and supervision.
+          <p class="marginT10">All our products are user friendly
+            and are based on industry laid parameters to ensure their flawlessness and shock proof body.
+            Customers can avail our products in various standard designs, colors, sizes, specifications
+            and also in custom designed form. Finally we are proud to state that we are
+            an <strong>ISO 9001:2008</strong> certified company and also authorized by
+            <strong>Bureau of Indian Standards</strong>. Customer satisfaction by our
+            quality products and prompt after sales service sets us apart from other brands.</p>
+          <p class="clearfix marginT5">
+            <a class="floatR" href="about.html" title="Know more About Us">Know more About Us</a>
+          </p>
         </Box>
       </Box>
       <ProductCategories categories={productCategories} />
